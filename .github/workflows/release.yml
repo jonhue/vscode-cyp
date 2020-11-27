@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v2.1.2
+      with:
+        node-version: 13
+    - name: Install dependencies
+      run: yarn install
+    - name: Generate package
+      run: yarn vsce package
+    - name: Publish
+      run: yarn vsce publish -p $PERSONAL_ACCESS_TOKEN
+      env:
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}

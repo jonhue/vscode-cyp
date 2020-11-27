@@ -1,0 +1,38 @@
+{
+    "name": "vscode-cyp",
+    "displayName": "cyp",
+    "description": "cyp language package",
+    "version": "0.1.0",
+    "engines": {
+        "vscode": "*"
+    },
+    "publisher": "jonhue",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jonhue/vscode-cyp.git"
+    },
+    "license": "MIT",
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "cyp",
+                "aliases": ["cyp"],
+                "extensions": [".cyp", ".cypi"],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "cyp",
+                "scopeName": "source.cyp",
+                "path": "./syntaxes/cyp.tmLanguage.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "vsce": "^1.81.1"
+    }
+}
