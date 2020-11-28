@@ -3,5 +3,5 @@
 node_modules
 .gitignore
 
-*.cyp
-*.cypi
+*.cprf
+*.cthy

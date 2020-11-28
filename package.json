@@ -20,7 +20,7 @@
             {
                 "id": "cyp",
                 "aliases": ["cyp"],
-                "extensions": [".cyp", ".cypi"],
+                "extensions": [".cprf", ".cthy"],
                 "configuration": "./language-configuration.json"
             }
         ],
