@@ -19,8 +19,13 @@
         "languages": [
             {
                 "id": "cyp",
-                "aliases": ["cyp"],
-                "extensions": [".cprf", ".cthy"],
+                "aliases": [
+                    "cyp"
+                ],
+                "extensions": [
+                    ".cprf",
+                    ".cthy"
+                ],
                 "configuration": "./language-configuration.json"
             }
         ],
@@ -33,6 +38,7 @@
         ]
     },
     "devDependencies": {
+        "ovsx": "^0.1.0-next.980e5cf",
         "vsce": "^1.81.1"
     }
 }
