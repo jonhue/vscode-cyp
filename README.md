@@ -2,7 +2,7 @@
 
 VS Code syntax highlighting for [cyp](https://github.com/lukasstevens/cyp).
 
-[VS Code](https://marketplace.visualstudio.com/items?itemName=jonhue.vscode-cyp), [Open VSX](https://open-vsx.org/extension/jonhue/vscode-cyp)
+[Install with VS Code](https://marketplace.visualstudio.com/items?itemName=jonhue.vscode-cyp), [Install with Open VSX](https://open-vsx.org/extension/jonhue/vscode-cyp)
 
 ## Development
 
