@@ -75,7 +75,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword",
-				"match": "\\b(Lemma|Case|Proof|QED|To\\ show|by|computation|induction|case\\ analysis|on|with|def|axiom|goal)\\b"
+				"match": "\\b(Lemma|Case|Proof|QED|To\\ show|by|computation|induction|case\\ analysis|extensionality|on|with|def|axiom|goal)\\b"
 			}]
 		},
 		"punctuation": {
