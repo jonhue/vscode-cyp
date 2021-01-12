@@ -8,7 +8,7 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
 
-    name: NPM
+    name: VS Code
     steps:
     - uses: actions/checkout@master
     - uses: actions/setup-node@v2.1.2
