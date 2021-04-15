@@ -4,6 +4,8 @@ VS Code syntax highlighting for [cyp](https://github.com/lukasstevens/cyp).
 
 [Install with VS Code](https://marketplace.visualstudio.com/items?itemName=jonhue.vscode-cyp), [Install with Open VSX](https://open-vsx.org/extension/jonhue/vscode-cyp)
 
+![image](https://user-images.githubusercontent.com/13420273/114928233-a80e6080-9e32-11eb-8280-549c54377d3e.png)
+
 ## Development
 
 1. Install dependencies with `yarn install`
