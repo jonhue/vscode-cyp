@@ -38,7 +38,7 @@
         ]
     },
     "devDependencies": {
-        "ovsx": "^0.1.0",
+        "ovsx": "^0.2.0",
         "vsce": "^1.93.0"
     }
 }
