@@ -290,10 +290,10 @@ fd-slicer@~1.1.0:
   dependencies:
     pend "~1.2.0"
 
-follow-redirects@^1.13.2:
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.3.tgz#e5598ad50174c1bc4e872301e82ac2cd97f90267"
-  integrity sha512-DUgl6+HDzB0iEptNQEXLx/KhTmDb8tZUHSeLqpnjpknR70H0nC2t9N73BK6fN4hOvJ84pKlIQVQ4k5FFlBedKA==
+follow-redirects@^1.14.6:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
+  integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
 
 fs-constants@^1.0.0:
   version "1.0.0"
@@ -567,13 +567,13 @@ once@^1.3.0, once@^1.3.1, once@^1.4.0:
   dependencies:
     wrappy "1"
 
-ovsx@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/ovsx/-/ovsx-0.3.0.tgz#2f30c80c90fbe3c8fc406730c35371219187ca0a"
-  integrity sha512-UjZjzLt6Iq7LS/XFvEuBAWyn0zmsZEe8fuy5DsbcsIb0mW7PbVtB5Dhe4HeK7NJM228nyhYXC9WCeyBoMi4M3A==
+ovsx@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/ovsx/-/ovsx-0.5.0.tgz#0151c68515a3a402efced4be654679397be05b7f"
+  integrity sha512-eZ+4yaZsjacV1h/y1IaP+DI8AL84vIjUQCWMtNQzV+O2f9bg2FSOKe8/4WXSUS8trgXMqf1ACDllKWTULaUkhQ==
   dependencies:
     commander "^6.1.0"
-    follow-redirects "^1.13.2"
+    follow-redirects "^1.14.6"
     is-ci "^2.0.0"
     leven "^3.1.0"
     tmp "^0.2.1"
